@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Biblioteca</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="action_login">Ingresar</string>
+    <string name="action_register">Registrar</string>
+    <string name="link_register">¿No tienes cuenta? Regístrate</string>
+    <string name="link_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="books_list">Lista de libros disponibles</string>
+    <string name="choose_books">ESCOGE LIBROS</string>
+
+    <string name="label_title">Título:</string>
+    <string name="label_author">Autor:</string>
+    <string name="label_available">Disponible</string>
+    <string name="label_unavailable">No disponible</string>
+</resources>
