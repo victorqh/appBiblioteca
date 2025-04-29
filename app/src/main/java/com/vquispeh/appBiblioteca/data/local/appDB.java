@@ -84,7 +84,7 @@ public class appDB extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    // Métodos de Usuario
+    // MétodosUsuario
     public boolean insertUsuario(Usuario u) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues cv = new ContentValues();
@@ -108,7 +108,7 @@ public class appDB extends SQLiteOpenHelper {
         return ok;
     }
 
-    // Métodos de Libro
+    // MétodosLibro
     public Cursor getAllLibros() {
         return getReadableDatabase().query(
                 T_LIBRO, null, null, null, null, null,
